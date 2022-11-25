@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Lint with flake8
       run: |
-        gfw-pac.py -f gfw.pac -p "SOCKS5 192.168.1.112:1090; PROXY 192.168.1.112:41091; DIRECT"
+        python3 gfw-pac.py -f gfw.pac -p "SOCKS5 192.168.1.112:1090; PROXY 192.168.1.112:41091; DIRECT"
