@@ -1,12 +1,17 @@
+mtalk.google.com
+alt3-mtalk.google.com
 google.com
 google.com.hk
 ggpht.com
+android.googleapis.com
+youtubei.googleapis.com
 googleapis.com
 google-analytics.com
 googleadservices.com
 googlesyndication.com
 googleadsserving.cn
 doubleclick.net
+googleads.g.doubleclick.net
 wikipedia.org
 stackoverflow.com
 sstatic.net
