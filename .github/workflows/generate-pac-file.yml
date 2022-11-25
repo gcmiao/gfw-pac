@@ -26,6 +26,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-    - name: Lint with flake8
+    - name: Run gfw-pac.py
       run: |
         python3 gfw-pac.py -f gfw.pac -p "SOCKS5 192.168.1.112:1090; PROXY 192.168.1.112:41091; DIRECT"
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
